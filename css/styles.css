@@ -4,6 +4,7 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	background: #333;
+	color: #CCC;
 }
 
 header, footer {
@@ -15,12 +16,8 @@ header a {
 	text-decoration: none;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
 	color: #EEE;
-}
-
-p {
-	color: #CCC;
 }
 
 footer p {
@@ -62,4 +59,13 @@ section {
 
 .nav-button:hover {
 	background-color: #666;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #FFF;
+	padding: 0.5rem 1rem;
 }
