@@ -69,3 +69,23 @@ th, td {
 	border: 1px solid #FFF;
 	padding: 0.5rem 1rem;
 }
+
+/* Google translate: hide void left by hidden top banner */
+html, body {
+	top: 0 !important;
+	position: static !important;
+}
+
+/* Google translate: hide top banner and google icon on dropdown */
+.skiptranslate iframe.skiptranslate,
+.goog-te-gadget-icon {
+	display: none !important;
+}
+
+/* Google translate: have dropdown float at the top right corner */
+.goog-te-gadget {
+	position: fixed !important;
+	top: 1rem !important;
+	right: 1rem !important;
+	z-index: 9999 !important;
+}
