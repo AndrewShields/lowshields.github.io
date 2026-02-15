@@ -48,10 +48,10 @@ section {
 	background-color: #222;
 }
 
-.nav-button {
+.nav-button,
+.major-button {
 	display: block;
 	box-sizing: border-box;
-	width: 100%;
 	text-align: center;
 	padding: 0.5rem 1rem;
 	text-decoration: none;
@@ -61,8 +61,17 @@ section {
 	transition: background-color 0.2s;
 }
 
-.nav-button:hover {
+.nav-button:hover,
+.major-button:hover {
 	background-color: #666;
+}
+
+.nav-button {
+	width: 25%;
+}
+
+.major-button {
+	width: 100%;
 }
 
 .language-grid {
