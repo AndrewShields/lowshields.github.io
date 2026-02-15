@@ -74,11 +74,15 @@ section {
 	width: 100%;
 }
 
+.vertical-grid,
 .language-grid {
 	display: grid;
 	width: 100%;
+	gap: 0.5rem;
+}
+
+.language-grid {
 	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-	gap: 10px;
 }
 
 .text-link {
