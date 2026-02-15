@@ -1,4 +1,4 @@
-// Get all
+// Get lang code e.g. "en-US" -> "en"
 function getUserLangCode() {
 	const langTag = navigator.language;
 	if (!langTag) {
@@ -9,6 +9,7 @@ function getUserLangCode() {
 	return langCode;
 }
 
+// Get all lang codes in grid and add a border to the one that matches the user's lang
 const userLangCode = getUserLangCode();
 const links = document.querySelectorAll(".major-button");
 
